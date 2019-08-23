@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-int main(){
+int main()
+{
     int A,B,C;
     cout<<("Ingresa un numero ")<<endl;
     cin>>A;
@@ -8,14 +9,26 @@ int main(){
     cin>>B;
     cout<<("Ingresa un numero  ")<<endl;
     cin>>C;
-    if(A > B && A > C){
+    if(A > B && A > C)
+    {
     cout<<"El numero mayor es "<<A;
-    }else{
-        if(B > A && B > C){
+    }
+    else
+    {
+        if(B > A && B > C)
+        {
         cout<<"El numero mayor es "<<B;
-        }else{
+        }else
+        {
         cout<<"El numero mayor es "<<C;
         }
     }
+
+    //int Z = A%B;
+
+    //cout << Z  << endl;
+
    return 0;
+
 }
+
